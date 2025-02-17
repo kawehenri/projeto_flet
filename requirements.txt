@@ -1,0 +1,1 @@
+flet==0.26.0 #tudo oq é externo é necessário estar no requirements
