@@ -18,6 +18,7 @@ def main(page: ft.Page):
     page.window.always_on_top = False #coloca em primeiro ou em segundo plano
     page.window.title_bar_hidden = False # tira a barra de configuração de pagina
     page.window.full_screen = False # abrir em tela cheia
+    page.window.resizable = True # redirecionar a pagina 
 
     def janela_evento(e):
         match e.data:

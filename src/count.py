@@ -12,8 +12,6 @@ def main(page: ft.Page):
             btn_tema.icon = ft.icons.NIGHTS_STAY_OUTLINED
             btn_tema.tooltip = 'Alterar para tema escuro'
             page.bgcolor = ft.Colors.WHITE
-            t.bgcolor = ft.colors.BLACK
-            t.color = ft.colors.WHITE
 
 
         else:
